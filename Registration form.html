@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="main.css"> 
+  <title>Document</title>
+</head>
+
+<body>
+  <h5>MITE Campus Placement</h5>
+
+  <hr>
+  <div class="container" id="project">
+    <form action="action_page.php">
+      <h3>Registration Form</h3>
+      <div class="row">
+        <div class="col-sm-2">
+          <label for="name">Full Name:<span class="red-star">*</span></label>
+        </div>
+        <div class="col-sm-1">
+          <input type="text" id="name" name="fullname"  size="35"  placeholder="Enter your Full name..">
+        </div>
+        <br><br><br>
+        <div class="col-sm-2">
+          <label for="mail">Email:<span class="red-star">*</span></label>
+        </div>
+        <div class="col-sm-1">
+          <input type="text" id="mail" name="email" size="35" placeholder="Enter valid Email...">
+        </div>
+
+        <br><br><br>
+
+        <div class="col-sm-2">
+          <label for="number">Mobile Number:<span class="red-star">*</span></label>
+        </div>
+        <div class="col-sm-1">
+          <input type="text" id="number" name="Mobile" size="35" placeholder="Enter valid Mobile Number....">
+        </div>
+
+        <br><br><br>
+        <div class="col-sm-2">
+
+          <label for="gender">Gender:<span class="red-star">*</span></label>
+        </div>
+        <div class="col-sm-1">
+          <input type="radio" name="gender" value="male"> Male
+        </div>
+        <div class="col-sm-1">
+          <input type="radio" name="gender" value="female"> Female
+        </div>
+        <br><br><br>
+        <div class="col-sm-2">
+          <label for="branch">Branch:<span class="red-star">*</span></label>
+        </div>
+        <form action="/action_page.php">
+          <div class="col-sm-1">
+            <select name="Branch">
+              <option value="CS">Computer Science And Engineering</option>
+              <option value="IS">Information Science And Engineering</option>
+              <option value="ME">Mechanical Engineering</option>
+              <option value="MT">Mechatronics Engineering</option>
+              <option value="ECE">Electronics And Communication Engineering</option>
+            </select>
+          </div>
+          <br><br><br>
+          <div class="col-sm-2">
+            <label for="Lang">Launguages:<span class="red-star">*</span></label>
+          </div>
+          <div class="col-sm-1">
+            <input type="checkbox" name="lang" value="C">C/C++</div>
+          <div class="col-sm-1">
+            <input type="checkbox" name="lang" value="Java">Java</div>
+          <div class="col-sm-2">
+            <input type="checkbox" name="lang" value="Web">Web Technologies</div>
+          <div class="col-sm-4">
+            <input type="checkbox" name="lang" value="dbms">DBMS</div>
+            <br><br><br>
+            <div class="col-sm-2">
+            <label for="Lang">Spoken Launguage:<span class="red-star">*</span></label>
+          </div>
+          <div class="col-sm-1">
+            <input type="text" id="Lang" name="Launguage" size="35" placeholder="Enter known Launguages">
+          </div>
+          <br><br><br>
+          <div class="col-sm-2">
+            <label for="Lang">Self Introduction:</label>
+          </div>
+          <div class="col-sm-1">
+            <input type="text" id="self" name="intro" size="35"
+              placeholder="Please give a brief description about yourself">
+          </div>
+          <br><br><br>
+          <div class="col-sm-4"></div>
+          <div class="col-sm-8">
+            <button type="button" class="btn-success">Submit</button>
+            <button type="button" class="btn-danger">Cancel</button>
+
+          </div>
+      </div>
+      <br><br>
+
+
+  </div>
+
+
+</body>
+
+</html>

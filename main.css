@@ -1,0 +1,26 @@
+h5{
+    margin-left: 150px;
+    
+}
+hr{
+    height:2px;
+    background-color:green;
+    margin-left: 150px;
+    margin-right:150px
+}
+h3{
+    color: green;
+    
+}
+#project{
+    background-color:grey;
+    margin-left: 150px;
+    margin-right:150px;
+    border: solid
+}
+.red-star {
+    color: red;
+}
+.name{
+    width :50px
+}
